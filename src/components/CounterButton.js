@@ -44,5 +44,5 @@ export default connect(
 
 CounterButton.propTypes = {
     increment: PropTypes.func.isRequired,
-    decrease: PropTypes.func.isRequired
+    decrement: PropTypes.func.isRequired
 };
